@@ -1,0 +1,7 @@
+-*- mode: compilation; default-directory: "~/Project Folder/c++ examples/" -*-
+Compilation started at Mon Jun  4 12:03:32
+
+M-x
+/bin/bash: M-x: command not found
+
+Compilation exited abnormally with code 127 at Mon Jun  4 12:03:32

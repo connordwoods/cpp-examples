@@ -15,7 +15,7 @@ main() {
 	ints.push_back(0); */
 
 //	User gathered input option
-	cout << "Type integers that are separated by spaces. Enter when done.";
+	cout << "Type integers that are separated by spaces. Enter a non-number character when done.";
 	int tmp;
 	while (cin >> tmp) //while input is ints
 	{
@@ -24,13 +24,14 @@ main() {
 //	Print unsorted vector
 	for (int i=0; i!=ints.size(); i++)
 	{
-		cout << ints[i] << " ";
+		cout << "UNSORTED ORDER: " << ints[i] << " ";
 	}
 	sort(ints.begin(), ints.end());
 	cout << "\n";
 //	Print sorted vector
 	for (int i=0; i!=ints.size(); i++)
 	{
-		cout << ints[i] << " ";
+		cout << "SORTED ORDER: " << ints[i] << " ";
 	}
+	cout << "\n";
 }

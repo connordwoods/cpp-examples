@@ -16,7 +16,7 @@ main() {
 	ints.push_back(0); */
 
 //	User gathered input option
-	cout << "Type words that are separated by spaces. To exit, type any number and enter.";
+	cout << "Type words that are separated by spaces. To exit, type 'Q' and enter.";
 	string tmp;
 	while (cin >> tmp) //while input is strs
 	{
